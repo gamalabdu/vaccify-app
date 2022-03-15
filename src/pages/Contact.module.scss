@@ -1,0 +1,50 @@
+@import "./../styles/variables.scss";
+
+
+.contact_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        padding:0;
+
+    }
+
+    h3 {
+        padding:0;
+        padding-top: 5%;
+    }
+
+    h4 {
+        margin-top: 10%;
+        padding-bottom: 10px;
+    }
+}
+
+.chat {
+    cursor: pointer;
+    outline: none;
+    border-radius: $borderRadius;
+    font-size: 1rem;
+    font-family: inherit;
+    background: $primary;
+    color: $dark;
+    border: 4px solid transparent;
+    transition: 0.3s ease all;
+
+    &:hover {
+        border-color: $primary;
+        background: rgba($primary, 0.1);
+        color: $primary;
+    }
+    &:active {
+        border-color: $primary;
+        background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+        color: $primary;
+    }
+}
+
+span {
+    font-weight: 100;
+}

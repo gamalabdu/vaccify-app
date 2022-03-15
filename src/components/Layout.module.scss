@@ -1,0 +1,25 @@
+@import "./../styles/variables.scss";
+
+.container {
+    height: calc(100vh - #{$headerHeight});
+    // background: $bg;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        padding: 1rem 2rem;
+        background: linear-gradient(220deg, $primary, rgba($primary, 0.5));
+        border-radius: $borderRadius calc(#{$borderRadius});
+    }
+
+    h3 {
+        padding-top: 15%;
+    }
+
+    h2{
+        padding-top: 10%;
+    } 
+    
+  
+}
