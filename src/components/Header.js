@@ -7,6 +7,7 @@ import classes from "./Header.module.scss";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const Header = () => {
+
     const navigate = useNavigate()
     const [menuOpen, setMenuOpen] = useState(false)
     const [size, setSize] = useState({
@@ -58,11 +59,11 @@ const Header = () => {
                                 About Us
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/present" onClick={menuToggleHandler}>
                                 Present
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link to="/contact" onClick={menuToggleHandler}>
                                 Contact Us

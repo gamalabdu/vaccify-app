@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import ImageSlider from "../components/ImageSlider";
+import { SliderData } from '../components/SliderData'
 
 const Present = () => {
-    return <h1>Page Two</h1>;
+    return <ImageSlider slides={SliderData} />
 };
 
 export default Present;

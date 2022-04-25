@@ -1,36 +1,30 @@
 import React, {useState} from 'react';
-import axios from 'axios';
-import { Link, Navigate, useNavigate } from "react-router-dom";
-import firebase from 'firebase/app'
+import { useNavigate } from 'react-router-dom';
 
 
 export default function PresentUpload () {
-  
 
-  const [selectedFile, setSelectedFile] = useState(null)
+  const [selectedFiles,setSelectedFiles] = useState([])
 
-  const fileSelectedHandler = event => {
-    setSelectedFile(event.target.files[0])
+  let navigate = useNavigate()
+
+  let image = new Image()
+
+  function handleUpload (e) {
+    let images = e.target.files
+    selectedFiles.push(images[0])
+    selectedFiles.push(images[1])
   }
 
-  const fileUploadHandler = () => {
-    const api = 'AIK0sqUrSByj8z96BSyocz'
-    const fd = new FormData()
-    fd.append('image',selectedFile,selectedFile.name)
-    fetch('https://www.filestackapi.com/api/store/S3?key=AIK0sqUrSByj8z96BSyocz',fd,{
-      onUploadProgress: progressEvent => {
-        console.log('Upload Progess ' + Math.round(progressEvent.loaded / progressEvent.total) * 100 + '%' )
-      }
-    })
-    .then(res => {
-      console.log(res)
-    })
+  function goTo () {
+    navigate('/present')
   }
+
 
   return (
-    <div className="present">   
-      <input type="file" onChange={fileSelectedHandler} multiple/>
-      <button onClick={fileUploadHandler}>Upload Files</button>
+    <div className="present-input">   
+      <input type="file" multiple onChange={handleUpload}></input>
+      <button onClick={goTo}>Submit</button>
     </div>
   )
 }
