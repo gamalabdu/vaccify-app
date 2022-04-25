@@ -8,14 +8,6 @@ export default function PresentUpload () {
 
   let navigate = useNavigate()
 
-  let image = new Image()
-
-  function handleUpload (e) {
-    let images = e.target.files
-    selectedFiles.push(images[0])
-    selectedFiles.push(images[1])
-  }
-
   function goTo () {
     navigate('/present')
   }
