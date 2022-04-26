@@ -12,6 +12,10 @@ export default function PresentUpload () {
     navigate('/present')
   }
 
+  function handleUpload () {
+    
+  }
+
 
   return (
     <div className="present-input">   
