@@ -2,9 +2,9 @@ import React from 'react'
 
 export const SliderData = [
     {
-        image: '../images/driversid.jpeg'
+        image: 'vaccify-app/images/driversid.jpeg'
     },
     {
-        image: '../images/vaccinecard.jpeg'
+        image: 'vaccify-app/images/vaccinecard.jpeg'
     }
 ]
