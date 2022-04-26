@@ -45,12 +45,12 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <div className={classes.header__content}>
-                <Link to="/" className={classes.header__content__logo}>
+                <Link to="/vaccify-app" className={classes.header__content__logo}>
                     Vaccify
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
-                        menuOpen && size.width < 768 ? classes.isMenu : ""
+                        menuOpen && size.width < 1000 ? classes.isMenu : ""
                     }`}
                 >
                     <ul>
