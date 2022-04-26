@@ -13,7 +13,7 @@ function App() {
     return (
         <Layout>
             <Routes>
-                <Route path="/" exact element={ <Home /> } />
+                <Route path="/vaccify-app" exact element={ <Home /> } />
                 <Route path="/about-us" exact element={ <AboutUs /> } />
                 <Route path="/login" exact element={ <Login/> } />
                 <Route path="/present" exact element={ <Present /> } />
