@@ -11,8 +11,8 @@ const Header = () => {
     const navigate = useNavigate()
     const [menuOpen, setMenuOpen] = useState(false)
     const [size, setSize] = useState({
-        width: 100,
-        height: 100,
+        width: 300,
+        height: 300,
     });
 
     useEffect(() => {
