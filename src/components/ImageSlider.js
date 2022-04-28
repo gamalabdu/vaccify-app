@@ -21,13 +21,13 @@ export default function ImageSlider({slides}) {
     }
 
   return (
-    <section class="slider">
+    <section className="slider">
     <FaArrowAltCircleLeft size={40} className='left-arrow' onClick={prevSlide} />
     <FaArrowAltCircleRight size={40} className='right-arrow' onClick={nextSlide}/>
     {SliderData.map ((slide,index) => {
         return (
             <div className={ index === current ? 'slide active' : 'slide' } key={index} >
-                {index === current && (<img src={slide.image} alt="card-images" class="card-images"></img>) }
+                {index === current && (<img src={slide.image} alt="card-images" className="card-images"></img>) }
             </div>
         )     
     })}

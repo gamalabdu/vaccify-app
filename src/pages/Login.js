@@ -35,9 +35,8 @@ const Login = () => {
 
     const renderErrorMessage = (name) => {
         console.log(errorMessages)
-        console.log(classes.error)
         name === errorMessages.name && (
-            <div className={classes.error}>{errorMessages.message}</div>
+            <div className={classes.login_form.error}>{errorMessages.message}</div>
         )
     }
     
