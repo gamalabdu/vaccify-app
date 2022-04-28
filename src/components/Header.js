@@ -11,8 +11,8 @@ const Header = () => {
     const navigate = useNavigate()
     const [menuOpen, setMenuOpen] = useState(false)
     const [size, setSize] = useState({
-        width: 400,
-        height: 400,
+        width: 0,
+        height: 0,
     });
 
     useEffect(() => {
@@ -46,7 +46,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/vaccify-app" className={classes.header__content__logo}>
-                    Vaccify
+                    EZProof
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -59,11 +59,6 @@ const Header = () => {
                                 About Us
                             </Link>
                         </li>
-                        {/* <li>
-                            <Link to="/present" onClick={menuToggleHandler}>
-                                Present
-                            </Link>
-                        </li> */}
                         <li>
                             <Link to="/contact" onClick={menuToggleHandler}>
                                 Contact Us
