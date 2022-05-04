@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vaccify-app/static/css/main.4de2da11.css",
-    "main.js": "/vaccify-app/static/js/main.72bf889a.js",
+    "main.css": "/vaccify-app/static/css/main.9c452a9c.css",
+    "main.js": "/vaccify-app/static/js/main.9a5a1fb2.js",
     "index.html": "/vaccify-app/index.html",
-    "main.4de2da11.css.map": "/vaccify-app/static/css/main.4de2da11.css.map",
-    "main.72bf889a.js.map": "/vaccify-app/static/js/main.72bf889a.js.map"
+    "main.9c452a9c.css.map": "/vaccify-app/static/css/main.9c452a9c.css.map",
+    "main.9a5a1fb2.js.map": "/vaccify-app/static/js/main.9a5a1fb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de2da11.css",
-    "static/js/main.72bf889a.js"
+    "static/css/main.9c452a9c.css",
+    "static/js/main.9a5a1fb2.js"
   ]
 }
