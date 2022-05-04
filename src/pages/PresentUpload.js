@@ -27,18 +27,19 @@ export default function PresentUpload ({setSelectedFiles,selectedFiles}) {
   return (
     <div className="present-input">   
       <input 
+      className='input-button'
       type="file" 
       multiple 
       onChange={handleUpload}
       accept="image/pdf, image/jpeg, image/png"
       />
-      <button onClick={goTo}>Submit</button>
+      <button onClick={goTo} className="submit-button">Submit</button>
         <div className="images">
           {selectedFiles && 
           selectedFiles.map((image,index) => {
             return (
               <div key={image} className="image">
-                <img src={image} height="200" />
+                <img src={image} height="200" className='card-image' />
                 <button className='deleteBtn'
                 onClick={() => {
                   setSelectedFiles(selectedFiles.filter((e) => e !== image))

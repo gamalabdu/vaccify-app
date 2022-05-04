@@ -47,8 +47,17 @@ input[type="submit"] {
 }
 
 .card-images {
-  max-width: 500px;
+  max-width: 600px;
   max-height: 400px;
+  cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgb(162,162,246);
+    color: rgb(29,29,29);
+    border: 5px solid transparent;
+    transition: 0.3s ease all;
 }
 
 .slider {
@@ -98,14 +107,14 @@ input[type="submit"] {
 }
 
 .present-input {
-  padding-top: 20%;
+  padding-top: 10%;
   display: block;
   align-items: center;
   justify-content: center;
 }
 
 .images {
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,4 +123,42 @@ input[type="submit"] {
 
 .deleteBtn {
   margin-right: 5%;
+  cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgb(162,162,246);
+    color: rgb(29,29,29);
+    border: 4px solid transparent;
+    transition: 0.3s ease all;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.input-button {
+  cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgb(162,162,246);
+    color: rgb(29,29,29);
+    border: 4px solid transparent;
+    transition: 0.3s ease all;
+}
+
+.submit-button {
+  cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgb(162,162,246);
+    color: rgb(29,29,29);
+    border: 4px solid transparent;
+    transition: 0.3s ease all;
+    margin-left: 10px;
 }
