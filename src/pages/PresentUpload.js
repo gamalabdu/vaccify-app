@@ -20,12 +20,17 @@ export default function PresentUpload ({setSelectedFiles,selectedFiles}) {
   }
 
   function goTo () {
-    navigate('/present')
+    if(selectedFiles.length === 0) {
+      alert("must submit at least one photo")
+    } else if(selectedFiles.length > 0) {
+      navigate('/present')
+    }
   }
 
 
   return (
     <div className="present-input">   
+    <h4> Select All Files At Once for Multiple Submission </h4>
       <input 
       className='input-button'
       type="file" 

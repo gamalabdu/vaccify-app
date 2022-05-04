@@ -10,6 +10,22 @@ const Login = () => {
 
     const navigate = useNavigate()
 
+    const database = [
+        {
+            username: "user1",
+            password: "pass1"
+        },
+        {
+            username: "user2",
+            password: "pass2"
+        },
+    ]
+
+    const errors = {
+        uname: "invalid username",
+        pass: " invalid password"
+    }
+
     const handleSubmit = (event) => {
         //Prevent page reload
         event.preventDefault();
@@ -34,9 +50,8 @@ const Login = () => {
       }
 
     const renderErrorMessage = (name) => {
-        console.log(errorMessages)
         name === errorMessages.name && (
-            <div className={classes.login_form.error}>{errorMessages.message}</div>
+            <div className="error">{errorMessages.message}</div>
         )
     }
     
@@ -62,21 +77,6 @@ const Login = () => {
         </div>
     )
 
-    const database = [
-        {
-            username: "user1",
-            password: "pass1"
-        },
-        {
-            username: "user2",
-            password: "pass2"
-        },
-    ]
-
-    const errors = {
-        uname: "invalid username",
-        pass: " invalid password"
-    }
 
 
     return (

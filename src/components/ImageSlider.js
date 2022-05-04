@@ -10,9 +10,6 @@ export default function ImageSlider({slides,selectedFiles}) {
 
      const length = selectedFiles.length
 
-    console.log(selectedFiles)
-    console.log("hello")
-
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1)
     }
