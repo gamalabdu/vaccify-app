@@ -1,4 +1,5 @@
 import React from 'react'
+import {setSelectedImages} from '../App'
 
 export const SliderData = [
     {

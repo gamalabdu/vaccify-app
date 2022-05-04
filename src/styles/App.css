@@ -96,3 +96,22 @@ input[type="submit"] {
 .homePageTag {
   margin-top: 200px;
 }
+
+.present-input {
+  padding-top: 20%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.deleteBtn {
+  margin-right: 5%;
+}
