@@ -65,7 +65,7 @@ const Header = () => {
                             </Link>
                         </li>
                     </ul>
-                    <button onClick={loginHandler}>Login</button>
+                    <button onClick={loginHandler}> Login </button>
                 </nav>
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (

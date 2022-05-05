@@ -21,7 +21,7 @@ export default function PresentUpload ({setSelectedFiles,selectedFiles}) {
 
   function goTo () {
     if(selectedFiles.length === 0) {
-      alert("must submit at least one photo")
+      alert("Must submit at least one photo!")
     } else if(selectedFiles.length > 0) {
       navigate('/present')
     }
