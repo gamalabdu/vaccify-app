@@ -15,6 +15,10 @@ const Contact = () => {
                   <input type="text" required />
               </div>
               <div>
+                  <label> Email </label>
+                  <input type="text" required />
+              </div>
+              <div>
                   <label className="message-label">Message</label>
                   <textarea rows="4" cols="50" name="comment">
                     Enter text here...</textarea>
