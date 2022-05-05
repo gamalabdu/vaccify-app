@@ -20,7 +20,7 @@ const Contact = () => {
               </div>
               <div>
                   <label className="message-label">Message</label>
-                  <textarea name="comment">
+                  <textarea className="textbox" name="comment">
                     Enter text here...</textarea>
               </div>
               <div>

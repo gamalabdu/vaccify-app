@@ -199,8 +199,9 @@ input[type="submit"] {
   background: rgb(87, 87, 87);
 }
 
-.message-email {
-  padding-bottm:10px;
+.textbox {
+  display:grid;
+  padding-top: 10px;
 }
 
 .home-page-img {
