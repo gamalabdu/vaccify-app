@@ -168,7 +168,7 @@ input[type="submit"] {
 
 .message {
     margin-top: 10px;
-    width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     outline: none;
@@ -199,15 +199,21 @@ input[type="submit"] {
   background: rgb(87, 87, 87);
 }
 
+.message-email {
+  padding-bottm:10px;
+}
+
 .home-page-img {
   margin-top: 30px;
   border-radius: 10px;
+  max-width: 100%; 
+    height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 .homePageTag {
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -222,7 +228,8 @@ input[type="submit"] {
 }
 
 .about-us {
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
