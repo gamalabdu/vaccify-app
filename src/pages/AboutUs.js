@@ -9,7 +9,7 @@ export default function AboutUs() {
         We bet you've heard this once... or a thousand times. 
       </h3>
       <h2 className='allows'>
-      Vaccify allows you to collect your vaccination pass and ID in one convenient app!
+      EZProof allows you to collect your vaccination pass and ID in one convenient app!
       </h2>
     </>
   )
