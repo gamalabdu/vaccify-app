@@ -6,7 +6,7 @@
     height: $headerHeight;
     padding: 0 1.5rem;
     @include breakpoint(md) {
-        padding: 0 3rem;
+        padding: 0rem 3rem;
     }
     transition: 0.3s ease all;
 
@@ -47,7 +47,7 @@
             transition: 0.3s ease transform;
 
             @include breakpoint(md) {
-                transform: none;
+                transform:none;
                 flex-direction: row;
                 background: transparent;
                 width: auto;
@@ -138,3 +138,4 @@
         }
     }
 }
+

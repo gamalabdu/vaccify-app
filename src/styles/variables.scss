@@ -22,7 +22,7 @@ $borderRadius: 12px;
 $headerHeight: 100px;
 
 @mixin breakpoint($point) {
-    @if $point == lg { 
+    @if $point == md {   // was if point == lg
         @media (min-width: 64em) { @content; } }
     @if $point == md {
         //768px 

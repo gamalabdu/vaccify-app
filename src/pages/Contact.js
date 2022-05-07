@@ -18,7 +18,7 @@ const Contact = () => {
                   <label> Email </label>
                   <input className="message-email" type="text" required />
               </div>
-              <div>
+              <div className="message-div">
                   <label className="message-label">Message</label>
                   <textarea className="textbox" name="comment">
                     Enter text here...</textarea>
