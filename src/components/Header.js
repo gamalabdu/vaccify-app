@@ -50,7 +50,7 @@ const Header = () => {
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
-                        menuOpen && size.width < 1000 ? classes.isMenu : ""
+                        menuOpen && size.width < 2000 ? classes.isMenu : ""
                     }`}
                 >
                     <ul>
