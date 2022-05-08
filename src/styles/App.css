@@ -202,7 +202,7 @@ input[type="submit"] {
 .home-page-img {
   margin-top: 30px;
   border-radius: 10px;
-  max-width: 100%; 
+  max-width: 80%; 
     height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -247,4 +247,20 @@ input[type="submit"] {
 
 .message-label {
   padding-right: 10px;
+}
+
+.thank-you {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgb(162,162,246);
+    color: rgb(29,29,29);
+    border: 4px solid transparent;
+    transition: 0.3s ease all;
+    padding-bottom: 7px;
 }
