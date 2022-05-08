@@ -6,7 +6,6 @@ const Contact = () => {
 
   const [click,setClick] = useState(false)
   const [thanks,setThanks] = useState (false)
-  let x = 6
 
   let mess = () => (
         <div className="thank-you">
