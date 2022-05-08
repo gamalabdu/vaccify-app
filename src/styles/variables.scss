@@ -21,9 +21,18 @@ $borderRadius: 12px;
 // header height
 $headerHeight: 100px;
 
+// @mixin breakpoint($point) {
+//     // @if $point == lg {   // was if point == lg
+//     //     @media (min-width: 64em) { @content; } }
+//     @if $point == md {
+//         //768px 
+//         @media (min-width: 48em) {
+//             @content;
+//         }
+//     }
+// }
+
 @mixin breakpoint($point) {
-    // @if $point == lg {   // was if point == lg
-    //     @media (min-width: 64em) { @content; } }
     @if $point == md {
         //768px 
         @media (min-width: 48em) {
@@ -31,4 +40,6 @@ $headerHeight: 100px;
         }
     }
 }
+
+
 
